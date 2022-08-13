@@ -1,0 +1,6 @@
+filrname = input("Enter your file name :")
+file = open(filename, 'r')
+file = file.read()
+nums = file.split()
+new_file = open('file2', 'w')
+new_file = new_file.write(file.title())
